@@ -5,4 +5,5 @@ Chỉ mục đích tham khảo
 2. Chạy file convertToJPG.py
   - copy nội dung file: base64/test2.txt vào thunder client như mẫu
   - http://127.0.0.1:5000/upload
-  - ảnh sẽ được lưu trong 
+  - ảnh sẽ được lưu trong
+  - output_img/res_image.jpg

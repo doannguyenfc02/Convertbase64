@@ -23,7 +23,7 @@ def upload_file():
         image = Image.open(BytesIO(file_content))
 
         # Lưu hình ảnh thành tệp
-        image.save('uploaded_image.jpg')
+        image.save('output_img/res_image.jpg')
 
         return jsonify({'message': 'Image uploaded successfully'}), 200
 
